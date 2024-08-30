@@ -1,0 +1,82 @@
+# Tableau DASHBOARD by Yesus Ena
+
+Sprint 4 Data Visualization with Tableau Project featuring user-friendly data visualizations.
+
+**Data Source:** [Superstore.xls](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/dvwt/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8)
+
+## DASHBOARD SHOWCASING THE FOLLOWING WORKBOOKS:
+
+### 1. **Book1.5**
+   - **Description**: This workbook offers a focused analysis of the two biggest profit and loss centers for the store.
+   - **Key Features**:
+     - Analyzes four regions: Central, East, South, West
+     - Measures: profit, sales, quantity, discount
+     - Insights:
+       - Two biggest profit centers: East and West
+       - Two biggest loss centers: Central and South
+
+### 2. **Book2**
+   - **Description**: A comprehensive analysis of products with negative profit margins that should be stopped from selling.
+   - **Key Features**:
+     - Product names plotted against their average profit margins
+     - Products with positive profit margins filtered out
+     - Product IDs added to Color Marks for dynamic charts and visuals
+
+### 3. **Book2.5**
+   - **Description**: Explore insights on sub-category products with less than a 10% profit margin that should be discontinued.
+   - **Key Features**:
+     - Sub-categories plotted against aggregate profit margins
+     - Sub-categories identified to stop selling: Storage, Chairs, Machines
+     - Sub-categories to promote: Labels, Paper, Envelopes
+
+### 4. **Book3.5**
+   - **Description**: This workbook provides a dashboard representation combining insights from workbooks 1.5, 2, and 2.5.
+   - **Key Features**:
+     - Visualizes data from Workbook 1.5, 2, and 2.5, respectively, offering an integrated overview
+
+### 5. **Book4**
+   - **Description**: This visualization focuses on identifying the three best states and months of the year with the highest average profit for targeted advertising.
+   - **Key Features**:
+     - Measures: Average profits, average sales (revenue), month of year, state
+     - Insights:
+       - Top states: Indiana, Missouri, Vermont
+       - Best months: October, October, November, respectively
+     - Plots on a scatter chart
+
+### 6. **Book5**
+   - **Description**: Get a detailed view of three states and the calculated amounts required for advertisement spending in this workbook.
+   - **Key Features**:
+     - Measures: Aggregate ROAS for state parameter, state, month of year, average sales (revenue)
+     - ROAS parameter calculated as: Revenue (sales) / profit (AVG([Sales]) / (0.2 * AVG([Profit])))
+     - Visualized on scatter charts
+
+### 7. **Book6**
+   - **Description**: A detailed exploration of products with the highest return values (rates).
+   - **Key Features**:
+     - Orders table left joined to the Returns table
+     - Calculated field added to convert NULL and "Yes" values for returns into 0 and 1, respectively
+     - Sum of returned values plotted against product names
+     - Focus on products with return rates in the 13-20 range
+
+### 8. **Book7**
+   - **Description**: This workbook highlights key insights into customers with the highest return values (rates) using advanced visualizations.
+   - **Key Features**:
+     - Customer ID and Customer name plotted against the sum of return values (rates)
+     - Focus on customers with return rates in the 50-196 range
+     - Customer ID added to Color Marks to enhance visualization
+
+### 9. **Book8**
+   - **Description**: Analyze average profit vs. average return rates for different states.
+   - **Key Features**:
+     - Orders table LEFT joined to the Returns table
+     - Calculated field added to convert NULL and "Yes" values for returns into 0 and 1, respectively
+     - Average return rates plotted against average profit for various states
+     - Visualized using bar charts with the state variable added to Color Marks
+
+## ONE DASHBOARD WITH MULTIPLE WOORKBOOKS
+
+These workbooks are available on my [https://public.tableau.com/app/profile/yesus.ena/viz/DATAVISUALIZATIONWITHTABLEAUDASH/Dashboard3]. The dashboard is interactive, allowing you to explore data and gain insights.
+
+## About the Author: Yesus Ena, Business Intelligence Analyst
+
+This Tableau project tells impactful data stories, showcasing how complex data can be transformed into actionable insights on a visually compelling dashboard.
